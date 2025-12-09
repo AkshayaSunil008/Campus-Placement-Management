@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.application.EmployeeStatus;
 
 import jakarta.persistence.*;
 

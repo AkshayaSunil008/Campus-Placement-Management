@@ -1,4 +1,6 @@
-package com.example.demo;
+package com.application.Employee;
+
+import com.application.EmployeeStatus.EmployeeStatus;
 
 import jakarta.persistence.*;
 
@@ -25,7 +27,7 @@ public class Employee {
     @Column(name = "level")
     private String level;
 
-    // 👇 FOREIGN KEY Many-to-One mapping
+    // FOREIGN KEY Many-to-One mapping
     @ManyToOne
     @JoinColumn(name = "employeeStatusId", referencedColumnName = "id")
     private EmployeeStatus employeeStatus;

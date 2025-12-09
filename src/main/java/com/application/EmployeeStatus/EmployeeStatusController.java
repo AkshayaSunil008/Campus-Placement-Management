@@ -1,6 +1,7 @@
-package com.example.demo;
+package com.application.EmployeeStatus;
 
 import org.springframework.web.bind.annotation.*;
+
 import java.util.List;
 
 @RestController
